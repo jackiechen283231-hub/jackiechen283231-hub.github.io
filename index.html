@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>kakaer-drive · Kakaer Automobile</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;
+    background:#f6f7f9;color:#1f2328;line-height:1.75;font-size:15.5px;
+  }
+  .hero{background:#17191d;color:#fff;padding:70px 24px 60px;text-align:center}
+  .hero .logo{
+    width:54px;height:54px;border-radius:14px;background:#e8590c;color:#fff;
+    display:inline-flex;align-items:center;justify-content:center;
+    font-weight:700;font-size:26px;letter-spacing:-1px;margin-bottom:18px;
+  }
+  .hero h1{font-size:30px;font-weight:600;letter-spacing:-.01em}
+  .hero h1 span{color:#e8590c}
+  .hero p{color:#a8adb8;max-width:640px;margin:14px auto 0;font-size:15.5px}
+  .wrap{max-width:820px;margin:0 auto;padding:0 24px}
+  section{background:#fff;border:1px solid #e6e8ec;border-radius:14px;padding:30px 34px;margin:26px 0}
+  h2{font-size:19px;margin-bottom:12px;font-weight:600}
+  p{margin:8px 0;color:#3c414b}
+  ul{padding-left:22px;margin:10px 0}
+  li{margin:7px 0}
+  a{color:#0b57d0;text-decoration:none}
+  a:hover{text-decoration:underline}
+  .pill{display:inline-block;background:#eef2f6;color:#4a5060;font-size:12.5px;
+    border-radius:999px;padding:3px 12px;margin:3px 6px 3px 0}
+  .cta{
+    display:inline-block;margin-top:10px;background:#0b57d0;color:#fff !important;
+    padding:10px 22px;border-radius:9px;font-weight:600;text-decoration:none;
+  }
+  .cta:hover{text-decoration:none;background:#0a4cb8}
+  .note{background:#fff8e1;border:1px solid #f0df9e;border-radius:10px;padding:14px 18px;
+    font-size:14px;color:#6b5312;margin-top:14px}
+  footer{text-align:center;color:#8b93a1;font-size:13px;padding:26px 0 44px}
+  footer a{color:#8b93a1}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="logo">K</div>
+  <h1>kakaer<span>-drive</span></h1>
+  <p>广州卡卡尔汽车改装设计（Kakaer Automobile）的官方数据工具页面 ——
+     用于通过 Google Drive 官方接口读写与本公司业务相关的云端文件与表格。</p>
+</div>
+
+<div class="wrap">
+
+<section>
+  <h2>这是什么</h2>
+  <p><b>kakaer-drive</b> 是由广州卡卡尔汽车改装设计有限公司（Kakaer Automobile）开发并运营的
+     内部业务工具。它通过 Google 官方的 Drive API / Sheets API，
+     以本公司授权账号（jackiechen283231@gmail.com）的身份，
+     访问与本公司业务相关的 Google 云端硬盘文件和 Google 表格。</p>
+  <p>该应用为<b>自用型应用</b>：开发者和使用者均为本公司，不向公众提供服务，不开放第三方注册。</p>
+</section>
+
+<section>
+  <h2>用来做什么</h2>
+  <ul>
+    <li>读取客户（如海外经销商）与本公司的共享业务表格，用于订单对账与交期跟进</li>
+    <li>将 Google 表格导出为 Excel / CSV 供内部记账系统核对</li>
+    <li>上传发货资料、产品图片等业务文件到本公司云端硬盘</li>
+    <li>更新本公司维护的共享表格数据</li>
+  </ul>
+  <div>
+    <span class="pill">Google Drive API</span>
+    <span class="pill">Google Sheets API</span>
+    <span class="pill">内部业务工具</span>
+    <span class="pill">仅限授权账号使用</span>
+  </div>
+</section>
+
+<section>
+  <h2>数据如何处理</h2>
+  <p>本应用的访问凭据仅保存在<b>授权用户本人的本地计算机</b>上，不存储在任何服务器上；
+     通过接口读取的 Google 用户数据仅用于上述业务用途，<b>不向任何第三方共享、出售或转移</b>。
+     详细说明见隐私政策：</p>
+  <a class="cta" href="privacy.html">查看隐私政策 →</a>
+</section>
+
+<section>
+  <h2>联系方式</h2>
+  <p>如对本应用或数据处理方式有任何疑问，请联系：</p>
+  <p><b>广州卡卡尔汽车改装设计有限公司</b><br>
+     邮箱：<a href="mailto:jackiechen283231@gmail.com">jackiechen283231@gmail.com</a></p>
+</section>
+
+</div>
+
+<footer>
+  © 2026 Kakaer Automobile (Guangzhou) · <a href="privacy.html">隐私政策</a>
+</footer>
+
+</body>
+</html>
